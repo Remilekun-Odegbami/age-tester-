@@ -22,6 +22,7 @@ body{
 
 h1{
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 h2, h3{
@@ -38,6 +39,10 @@ h2, h3{
     border: 2px solid var(--prim);
     min-width: fit-content;
     max-width: 30%;
+}
+
+.main label {
+    font-size: 1.2em;
 }
 
 .output{
