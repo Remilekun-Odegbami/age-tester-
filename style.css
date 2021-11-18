@@ -27,7 +27,7 @@ h1{
 
 h2, h3{
     text-transform: capitalize;
-    /* text-align: center; */
+    text-align: center;
 }
 
 .main .form-section {
@@ -44,6 +44,12 @@ h2, h3{
 .main label {
     font-size: 1.2em;
 }
+
+#date, .submit{
+    margin: 40px auto;
+    display: block;
+}
+
 
 .output{
     margin-top: 20px;
