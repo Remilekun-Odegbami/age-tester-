@@ -61,7 +61,7 @@ h3 {
   font-weight: 800;
   font-size: 1.3em;
   animation-name: flash;
-  animation-duration: 1.5s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
 }
 
@@ -72,7 +72,7 @@ h3 {
     transform: scale(0.4);
   }
   25% {
-    color: cyan;
+    color: magenta;
     opacity: 0.4;
     transform: scale(0.6);
   }

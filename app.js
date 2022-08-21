@@ -19,9 +19,9 @@ const checkAge = (e) => {
   const birthYear = birthDate.getFullYear();
   const age = birthYear - dateInput;
 
-  const oldEnough = () => `You are ${age} years old, you can drink!`;
+  const oldEnough = () => `You are ${age} years old, you can drink.`;
   const notOldEnough = () =>
-    `Hey!!! You are ${age} years old. No alcohol for you, go and take yoghurt instead.`;
+    `Hey!!! You are ${age} years old. No alcohol for you, go and take yoghurt instead!`;
 
   // the html div displays these messages
   if (age < 18 && checkbox.checked === true) {
